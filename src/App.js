@@ -73,9 +73,9 @@ function App() {
         <Route path="/signup" element={<Signup />} />
        
       </Routes>
-        <ToastContainer
+      <ToastContainer
         position="bottom-right"
-        autoClose={5000}
+        autoClose={1000}
         hideProgressBar={false}
         newestOnTop={false}
         closeOnClick
