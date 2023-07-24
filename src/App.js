@@ -26,6 +26,8 @@ import AddressDetails from "./pages/AccountDetails/components/addressDetails";
 import OrderHistory from "./pages/AccountDetails/components/orderHistory";
 import Checkout from "./pages/Checkout/checkout";
 import PageNotFound from "./pages/pagenotfound/pagenotfound";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   const { loader } = useContext(ProductContext);
@@ -71,6 +73,18 @@ function App() {
         <Route path="/signup" element={<Signup />} />
        
       </Routes>
+        <ToastContainer
+        position="bottom-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
+      />
 
     </div>
   );
