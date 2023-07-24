@@ -1,0 +1,120 @@
+/* .navbar {
+  padding: 0 2rem;
+  box-shadow: 0 8px 6px -6px var(--grey-color);
+  position: sticky;
+  height: 60px;
+  top: 0;
+  z-index: 10;
+  box-sizing: border-box;
+  background-color: #343a40!important;
+}
+ */
+
+.flexbox{
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+}
+.flex-item-left {
+  background-color: #343a40!important;
+  padding: 10px;
+  flex: 33.33%;
+}
+.flex-item-mid {
+  background-color: #343a40!important;
+  padding: 10px;
+  flex: 33.33%;
+}
+
+.flex-item-right {
+  background-color:#343a40!important;
+  padding: 10px;
+  flex: 33.33%;
+}
+
+
+.search-bar input {
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+    border: 1px solid grey;
+    font-size: 16px;
+    /* background-color: var(--super-light-purple); */
+    box-sizing: border-box;
+    outline: none;
+  }
+  
+  .search-bar input:focus {
+    border: 2px solid #7e22ce;
+  }
+  
+  .search-bar i {
+    position: absolute;
+    padding: 10px;
+  }
+  
+  .search-bar input::placeholder {
+    color: grey;
+    text-align: center;
+  }
+
+  .nav-icons {
+    display: flex;
+    gap: 2rem;
+    font-size: 22px;
+  }
+  
+  .nav-icons .icon-badge {
+    position: relative;
+    bottom: 15px;
+    left: 2px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 2px 5px;
+    color: rgb(7, 7, 7);
+    font-size: 12px;
+    text-decoration: none;
+  }
+  .icon-badge span{
+    color: black;}
+  .icon-navlink {
+    text-decoration: none;
+    /* size: 20px; */
+    padding: 10px;
+  }
+  
+  .icon-navlink i {
+   color: white;
+  }
+  .nav-icons i {
+    cursor: pointer;
+  }
+  
+  .nav-icons .login-user {
+    background-color: gray;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    /* padding-top: 15px; */
+    padding: 0.1rem;
+    border-radius: 5px;
+    color: white;
+   
+  }
+  .login-user p {
+   
+  padding-top: 15px;
+    color: white;
+  }
+  .nav-link {
+    text-decoration: none;
+    color: white;
+  }
+
+  @media (max-width: 800px) {
+    .flexbox {
+      flex-direction: column;
+    }
+  }
+ 
+  
