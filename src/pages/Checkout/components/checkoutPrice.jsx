@@ -134,9 +134,9 @@ const CheckoutPrice = () => {
           </div>
         </div>
         <div className="cart-items">
-          {productState?.cart?.map(({ _id, name, qty }) => (
+          {productState?.cart?.map(({ _id, Name, qty }) => (
             <div key={_id}>
-              <p>{name}</p>
+              <p>{Name}</p>
               <p>{qty}</p>
             </div>
           ))}
