@@ -161,6 +161,7 @@ header{
   overflow: hidden;
   padding: 34px ;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .banner-wrap{
@@ -176,6 +177,7 @@ width: 293px;
 justify-content: space-around;
 border-radius: 0;
 overflow: hidden;
+margin-bottom: 2%;
 }
 @keyframes fade {
   from {opacity: .4} 
